@@ -1,0 +1,16 @@
+.cardWrapper {
+    border: 1px solid #535353;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.cardWrapper img {
+    display: block;
+    margin: 0 auto;
+}
+
+.cardWrapper:hover {
+    box-shadow: 2px 2px 2px #535353;
+    cursor: default;
+}

@@ -1,0 +1,20 @@
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.error {
+    color: #FF0000;
+    font-size: 24px;
+}
