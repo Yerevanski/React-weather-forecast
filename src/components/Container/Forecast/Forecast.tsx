@@ -50,7 +50,7 @@ const Forecast: FC = () => {
   const notFound = locationError && (
     <div className={classes.error}>The city not found! Please check input.</div>
   );
-console.log(error, weather);
+
   //useMemo hook usage example. If the input dont changes in 3 sec it return memorized value.
   const expensiveFunction = useMemo((): Promise<string> => {
     const promise: Promise<string> = new Promise((resolve, reject) => {
